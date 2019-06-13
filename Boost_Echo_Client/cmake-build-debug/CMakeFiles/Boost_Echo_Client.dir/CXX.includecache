@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/connectionHandler.h
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+
+/users/studs/bsc/2019/eyalhand/Downloads/Boost_Echo_Client/src/echoClient.cpp
+stdlib.h
+-
+connectionHandler.h
+-
+thread
+-
+
